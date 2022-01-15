@@ -1,0 +1,15 @@
+package com.training.page;
+
+import org.openqa.selenium.WebDriver;
+
+import com.training.base.BasePage;
+import com.training.base.BaseTest;
+
+public class LoginPage extends BasePage{
+
+	public LoginPage(WebDriver driver) {
+		super(driver = BaseTest.);
+		
+	}
+
+}

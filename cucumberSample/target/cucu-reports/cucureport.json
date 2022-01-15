@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T09:08:31.206Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3535473000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.step.Step.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid username and valid password",
+        "description": "",
+        "id": "login-into-application;login-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 324313200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters value into textBox \"username\" \"jyothi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"jyothi\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.step.Step.user_enters_value_into_text_box(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224047300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters value into textBox \"password\" \"jyothi1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"jyothi1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.step.Step.user_enters_value_into_text_box(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks \"loginButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginButton\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.step.Step.user_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user verify the textvalue \"headerText\" \"expected\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"headerText\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"expected\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.training.step.Step.user_verify_the_textvalue(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into application",
+    "description": "",
+    "id": "login-into-application",
+    "keyword": "Feature",
+    "uri": "file:resources/login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-14T16:47:44.491Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4209012900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.training.step.Step.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login with valid username and valid password",
+        "description": "",
+        "id": "login-into-application;login-with-valid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 0.030\n  (Session info: chrome\u003d97.0.4692.71)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027JYOTHI\u0027, ip: \u0027192.168.0.8\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\\Users\\jyoth\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63828}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 53d0048cd5389194933d8d993b3bba8d\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)\r\n\tat com.training.base.BasePage.enterIntoTextBox(BasePage.java:32)\r\n\tat com.training.base.BasePage.enterIntoTextBox(BasePage.java:27)\r\n\tat com.training.step.Step.user_enters_value_into_text_box(Step.java:23)\r\n\tat ✽.user enters value into textBox \"username\" \"jyothi\"(file:///C:/Users/jyoth/workspace-Interview/cucumberSample/resources/login.feature:4)\r\n",
+              "duration": 246797600,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user enters value into textBox \"username\" \"jyothi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"jyothi\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.step.Step.user_enters_value_into_text_box(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters value into textBox \"password\" \"jyothi1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"jyothi1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.training.step.Step.user_enters_value_into_text_box(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user clicks \"loginButton\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"loginButton\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.training.step.Step.user_clicks(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user verify the textvalue \"headerText\" \"expected\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"headerText\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"expected\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.training.step.Step.user_verify_the_textvalue(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into application",
+    "description": "",
+    "id": "login-into-application",
+    "keyword": "Feature",
+    "uri": "file:///C:/Users/jyoth/workspace-Interview/cucumberSample/resources/login.feature",
+    "tags": []
+  }
+]

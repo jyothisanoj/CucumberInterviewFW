@@ -1,0 +1,7 @@
+package com.training.test;
+
+import com.training.base.BaseTest;
+
+public class LoginTest extends BaseTest{
+
+}

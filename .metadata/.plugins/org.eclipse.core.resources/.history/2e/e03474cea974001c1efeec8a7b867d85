@@ -1,0 +1,20 @@
+package com.training.test;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.training.base.BaseTest;
+
+public class LoginTest extends BaseTest{
+	
+	@BeforeMethod
+	public void setup(){
+		lanuchBrowser();
+	}
+
+	
+	@Test
+	public void test() {
+		System.out.println("Browser lanuched");
+	}
+}
