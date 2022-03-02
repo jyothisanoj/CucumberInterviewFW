@@ -12,7 +12,7 @@ public class LoginTest extends BaseTest{
 	
 	@BeforeMethod
 	public void setup(){
-		lanuchBrowser("CHROme");
+		lanuchBrowser("ie");
 		login = new LoginPage(driver);
 	}
 
